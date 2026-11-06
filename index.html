@@ -2,33 +2,15 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sistem Informasi dan Manajemen Bantuan (SIMBA)</title>
-    <style>
-        html, body {
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            height: 100%;
-            overflow: hidden;
-            background-color: #ffffff;
-        }
-        iframe {
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
-    </style>
+    <title>Memuat Halaman...</title>
+    <script>
+        // Simpan tujuan ke sessionStorage
+        sessionStorage.setItem("target", "https://simba.kemenag.go.id/pesantren/cek_proposal/proposal/135/141/cek_proposal");
+        // Arahkan ke halaman login
+        window.location.href = "https://simba.kemenag.go.id/login/#login";
+    </script>
 </head>
 <body>
-    <script>
-        const targetUrl = "https://simba.kemenag.go.id/pesantren/cek_proposal/proposal/135/141/cek_proposal";
-        
-        // Membuat element iframe secara dinamis
-        const iframe = document.createElement("iframe");
-        iframe.src = targetUrl;
-        iframe.setAttribute("allow", "fullscreen");
-        document.body.appendChild(iframe);
-    </script>
+    <p>Sedang mengarahkan ke halaman login...</p>
 </body>
 </html>
